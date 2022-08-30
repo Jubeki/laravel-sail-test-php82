@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ccbd816a07b206f971042295b899d1ba",
+    "content-hash": "1c122b027cba69904dacf249c262cf44",
     "packages": [
         {
             "name": "brick/math",
@@ -5526,16 +5526,16 @@
         },
         {
             "name": "laravel/sail",
-            "version": "v1.15.4",
+            "version": "dev-php82-support",
             "source": {
                 "type": "git",
-                "url": "https://github.com/laravel/sail.git",
-                "reference": "853dea1fa866a52a93beccc4e5affdc49b98e7d5"
+                "url": "https://github.com/Jubeki/laravel-sail.git",
+                "reference": "f551000feba392d74d039f8ad94e5ac09d4a7489"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/sail/zipball/853dea1fa866a52a93beccc4e5affdc49b98e7d5",
-                "reference": "853dea1fa866a52a93beccc4e5affdc49b98e7d5",
+                "url": "https://api.github.com/repos/Jubeki/laravel-sail/zipball/f551000feba392d74d039f8ad94e5ac09d4a7489",
+                "reference": "f551000feba392d74d039f8ad94e5ac09d4a7489",
                 "shasum": ""
             },
             "require": {
@@ -5563,7 +5563,6 @@
                     "Laravel\\Sail\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -5582,7 +5581,7 @@
                 "issues": "https://github.com/laravel/sail/issues",
                 "source": "https://github.com/laravel/sail"
             },
-            "time": "2022-08-17T13:17:15+00:00"
+            "time": "2022-08-30T15:19:39+00:00"
         },
         {
             "name": "mockery/mockery",
@@ -7643,7 +7642,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "laravel/sail": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
